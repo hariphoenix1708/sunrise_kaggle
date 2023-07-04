@@ -1,14 +1,14 @@
 #!/bin/bash
 
-cd /content/microsoftexcel
+cd /kaggle/working/microsoftexcel
 git clone https://huggingface.co/nolanaatama/embeddings
-cd /content/microsoftexcel/models
+cd /kaggle/working/microsoftexcel/models
 git clone https://huggingface.co/nolanaatama/ESRGAN
-cd /content/microsoftexcel/extensions/a1111-microsoftexcel-locon
+cd /kaggle/working/microsoftexcel/extensions/a1111-microsoftexcel-locon
 git checkout 04b768b
-cd /content/microsoftexcel/extensions/a1111-microsoftexcel-tagcomplete
+cd /kaggle/working/microsoftexcel/extensions/a1111-microsoftexcel-tagcomplete
 git checkout f9f7732
-cd /content/microsoftexcel
+cd /kaggle/working/microsoftexcel
 # Web UI tunnel
 #!COMMANDLINE_ARGS="--share --disable-safe-unpickle --no-half-vae --xformers --enable-insecure-extension --gradio-queue" REQS_FILE="requirements.txt" python launch.py
 # Use this command below to use cloudflare tunnel
