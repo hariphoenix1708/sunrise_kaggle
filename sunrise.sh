@@ -19,8 +19,8 @@ curl -Lo /kaggle/working/microsoftexcel/extensions/microsoftexcel-images-browser
 cd /kaggle/working/microsoftexcel/extensions
 unzip /kaggle/working/microsoftexcel/extensions/microsoftexcel-images-browser.zip
 cd /kaggle/working
+
 # Model Code
-cp /kaggle/working/drive/MyDrive/Stable-diffusion/iswdef-woman-1611-iswdef.ckpt /kaggle/working/microsoftexcel/models/Stable-diffusion/iswdef-woman-1611-iswdef.ckpt
-cp /kaggle/working/drive/MyDrive/Stable-diffusion/atmklat-woman-1611-atmklat.ckpt /kaggle/working/microsoftexcel/models/Stable-diffusion/atmklat-woman-1611-atmklat.ckpt
-cp /kaggle/working/drive/MyDrive/Stable-diffusion/malklat-woman-1611-malklat.ckpt /kaggle/working/microsoftexcel/models/Stable-diffusion/malklat-woman-1611-malklat.ckpt
-cp /kaggle/working/drive/MyDrive/Stable-diffusion/meinahentai_v4.safetensors /kaggle/working/microsoftexcel/models/Stable-diffusion/meinahentai_v4.safetensors
+pip install gdown
+gdown --id 1nsksLfVwFBRoH8J7PMp2gGNkYSY_nUB6
+cp malklat-woman-1611-malklat.ckpt /kaggle/working/microsoftexcel/models/Stable-diffusion/malklat-woman-1611-malklat.ckpt
