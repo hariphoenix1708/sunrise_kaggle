@@ -19,8 +19,3 @@ curl -Lo /kaggle/working/microsoftexcel/extensions/microsoftexcel-images-browser
 cd /kaggle/working/microsoftexcel/extensions
 unzip /kaggle/working/microsoftexcel/extensions/microsoftexcel-images-browser.zip
 cd /kaggle/working
-
-# Model Code
-pip install gdown
-gdown --id 1nsksLfVwFBRoH8J7PMp2gGNkYSY_nUB6
-cp malklat-woman-1611-malklat.ckpt /kaggle/working/microsoftexcel/models/Stable-diffusion/malklat-woman-1611-malklat.ckpt
